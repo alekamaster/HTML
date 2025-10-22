@@ -1,0 +1,46 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Node_modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDE / Editor folders
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OneDrive temp
+~$*
+
+# Windows image file cache
+ehthumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Mac
+._*
+
+# Misc
+.DS_Store
+
+# HTML project specific - ignore compiled assets/exports
+dist/
+build/
+
+# Ignore user-specific files
+.env
+
+# Ignore package lock if not needed
+package-lock.json
+
+'template'

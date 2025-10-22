@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+h1 {
+    color: #cee07b;
+    text-align: center;
+    text-transform: uppercase;
+    margin:0;
+    font-size: 6em;
+    font-family: "Griffy", system-ui;
+    font-weight: 400;
+}
+  
+
+/* nav */
+nav{
+    grid-area: nav;
+    text-align: center;
+    background-color: #db1414e8;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  
+}
+nav ul li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+nav ul li a {
+  
+    color:#0c0344;
+    font-weight: bold;
+    padding: 1em;
+    text-decoration: none;;
+}
+nav ul li a:hover {
+  
+    background-color:#fff;
+    color:#000;
+    text-decoration: none;;
+}
+
+aside img{
+
+    margin-right: 1rem;;
+    border: #b3b3b3 .5em solid;
+
+}
+main img{
+    border-radius: 100% 100% 40% 40%;
+    margin-right: 1rem;;
+    border: #b3b3b3 .5em solid;
+}
+/* CSS Grid Layout */
+#container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header'
+        'nav nav nav nav nav'
+        'sidebar sidebar sidebar sidebar content'
+        'footer footer footer footer footer';
+
+    margin: 0;
+}
+
+header {
+    
+    grid-area: header;
+    background: url("../img/banner.jpg") no-repeat center center/cover;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+aside {
+    grid-area: sidebar;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+main {
+    grid-area: content;
+    background: #fff;
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* add some styles for paragraphs */
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
