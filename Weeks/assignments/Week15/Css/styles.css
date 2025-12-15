@@ -1,0 +1,198 @@
+/*  ESTILOS GENERALES */
+body {
+    background-color: #e9dfd1;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #fffaf2;
+    padding: 20px 30px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.18);
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+h1 {
+    color: #9b2c22;
+    font-size: 2.3em;
+    margin-top: 10px;
+}
+
+/* NAVEGACIÓN */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+    background-color: #9b2c22;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #c64538;
+    text-decoration: underline;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* SECCIONES Y TEXTO */
+section {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    background-color: #f3e7d6;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+section h2 {
+    color: #9b2c22;
+    border-bottom: 2px solid #9b2c22;
+    padding-bottom: 5px;
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* GALERÍA */
+.gallery-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gallery-table th {
+    background-color: #9b2c22;
+    color: white;
+    padding: 12px;
+    font-size: 1.1em;
+}
+
+.gallery-table td {
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.gallery-table img {
+    width: 160px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* MENÚ */
+.platillo {
+    color: #9b2c22;
+    margin-top: 30px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item img {
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+.menu-item p {
+    margin: 0;
+}
+
+.menu-item strong {
+    font-size: 1.1em;
+}
+
+/*  FORMULARIO */
+form {
+    background-color: #f3e7d6;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"] {
+    width: 95%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #9b2c22;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #c64538;
+}
+
+
+   /* FOOTER */
+footer {
+    clear: both;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+footer small {
+    color: #555;
+}
